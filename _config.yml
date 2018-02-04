@@ -3,8 +3,7 @@
 # Mind no '/' at the and of url
 url: blog.papersmile.pl
 
-#tmpUrl: http://blog.papersmile.pl
-tmpUrl: https://lukaszkomar.github.io/blog.papersmile.pl
+tmpUrl: http://blog.papersmile.pl
 
 # Company name
 companyName: Blog Paper Smile
