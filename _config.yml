@@ -1,0 +1,182 @@
+# Header metadata
+
+# Mind no '/' at the and of url
+url: blog.papersmile.pl
+
+tmpUrl: http://blog.papersmile.pl
+
+# Company name
+companyName: Paper Smile
+companyFullName: Paper Smile
+
+title: Paper Smile
+description: Zestawy unikalnych i niepowtarzalnych kart do zdjęć, dzięki którym uda się zachować najpiękniejsze chwile w życiu każdego dziecka. Plakaty edukacyjne, naklejki, akcesoria dla dzieci.
+keywords: Karty do zdjęć, karty dla dzieci, photocards, pierwszy rok, pierwszy rok życia, pierwszy rok życia dziecka, dziecko, mama, rodzina, prezent, zdjęcia, zdjęcie, prezent dla dziecka, niemowlę, prezent dla niemowlaka, prezent dla małego dziecka, narodziny dziecka, prezent na narodziny dziecka, ciąża 9 miesięcy, moje 9 miesięcy, karty 9 miesięcy, karty ciąża, mama i dziecko, małe dziecko, kontrastowe karty, plakaty, plakaty edukacyjne, plakaty edukacyjne dla dzieci, alfabet, liczby, nauka czytania, dom, dekoracja, pokój dziecka, dziewczyna, chłopiec, prezent dla dziewczynki, prezent dla chłopca, prezent na urodziny, urodziny dziecka, paper smile, papersmilepl, witaj na świecie, mój pierwszy rokżycia,
+author: Paper Smile
+
+google_site_verification: x
+google_map_apikey: x
+
+analytics: 
+    code: x
+    domain: papersmile.pl
+  
+# Social media
+social:
+    gplus: x
+  
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Warsaw
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink: /:title/
+
+# Komplety
+sets:
+  "1":
+    "title": "karty-do-zdjec-pierwszy-rok-zycia-dziecka-zwierzeta-39-kart-box.jpg"
+  "2":
+    "title": "karty-do-zdjec-pierwszy-rok-zycia-dziecka-zwierzeta-43-karty-box.jpg"
+  "3":
+    "title": "karty-do-zdjec-moje-9-miesiecy-ciaza-box.jpg"
+  "4":
+    "title": "karty-do-zdjec-pierwszy-rok-zycia-dziecka-kontrastowe-box.jpg"
+
+produkty:
+  karty:
+    pierwszy-rok-zwierzeta-39:
+      key: pierwszy-rok-zwierzeta-39
+      nazwa: Karty do zdjęć Pierwszy rok życia dziecka Zwierzęta 39 kart
+      header: Karty do zdjęć - Pierwszy rok życia <br/>Zwierzęta 39 kart
+      infoParagraphA: Zestaw unikalnych i niepowtarzalnych kart do zdjęć, dzięki którym uda się zachować najpiękniejsze chwile w życiu każdego dziecka.
+      infoParagraphB:
+      infoParagraphC:
+      howItWorksParagraphA: Zapisz datę na karcie, daj kartę dziecku do potrzymania albo połóż obok niego, zrób zdjęcie, a tył karty uzupełnij o ważne informacje i zachowaj. Piękna i ciekawa pamiątka – gotowa!
+      howItWorksParagraphB: Karty do zdjęć na pierwszy rok życia, to wyjątkowa oraz ciekawa propozycja na prezent dla każdej przyszłej mamy.
+      url: /karty-do-zdjec-pierwszy-rok-zycia-dziecka-zwierzeta-39-kart
+      img: karty-do-zdjec-pierwszy-rok-zycia-dziecka-zwierzeta-39-kart
+      imgSrcPrefix: /img/karty-do-zdjec-pierwszy-rok-zycia-dziecka-zwierzeta-39-kart
+      price: "42.00"
+      allegro: http://allegro.pl/karty-do-zdjec-pierwszy-rok-zycia-dziecka-i7086553700.html
+    pierwszy-rok-zwierzeta-43:
+      key: pierwszy-rok-zwierzeta-43
+      nazwa: Karty do zdjęć Pierwszy rok życia dziecka Zwierzęta 43 karty
+      header: Karty do zdjęć - Pierwszy rok życia <br/>Zwierzęta 43 karty
+      infoParagraphA: Zestaw unikalnych i niepowtarzalnych kart do zdjęć, dzięki którym uda się zachować najpiękniejsze chwile w życiu każdego dziecka.
+      infoParagraphB:
+      infoParagraphC:
+      howItWorksParagraphA: Zapisz datę na karcie, daj kartę dziecku do potrzymania albo połóż obok niego, zrób zdjęcie, a tył karty uzupełnij o ważne informacje i zachowaj. Piękna i ciekawa pamiątka – gotowa!
+      howItWorksParagraphB: Karty do zdjęć na pierwszy rok życia, to wyjątkowa oraz ciekawa propozycja na prezent dla każdej przyszłej mamy.
+      url: /karty-do-zdjec-pierwszy-rok-zycia-dziecka-zwierzeta-43-karty
+      img: karty-do-zdjec-pierwszy-rok-zycia-dziecka-zwierzeta-43-karty
+      imgSrcPrefix: /img/karty-do-zdjec-pierwszy-rok-zycia-dziecka-zwierzeta-43-karty
+      price: "45.00"
+      allegro: http://allegro.pl/karty-do-zdjec-pierwszy-rok-zycia-prezent-i6992582584.html
+    moje-9-miesiecy:
+      key: moje-9-miesiecy
+      nazwa: Karty do zdjęć Moje 9 miesięcy ciąża
+      header: Karty do zdjęć - Moje 9 miesięcy <br/>Ciąża 40 kart
+      infoParagraphA: Zestaw unikalnych i niepowtarzalnych kart do zdjęć, dzięki którym uda się zachować najpiękniejsze chwile z okresu ciąży.
+      infoParagraphB:
+      infoParagraphC:
+      howItWorksParagraphA: Zrób zdjęcie, a tył karty uzupełnij o ważne informacje i zachowaj. Piękna i ciekawa pamiątka – gotowa!
+      howItWorksParagraphB: Karty do zdjęć na okres ciąży, to wyjątkowa oraz ciekawa propozycja na prezent dla każdej przyszłej mamy.
+      url: /karty-do-zdjec-moje-9-miesiecy-ciaza
+      img: karty-do-zdjec-moje-9-miesiecy-ciaza
+      imgSrcPrefix: /img/karty-do-zdjec-moje-9-miesiecy-ciaza
+      price: "43.00"
+      allegro: http://allegro.pl/karty-do-zdjec-moje-9-miesiecy-ciaza-i6944885530.html
+    pierwszy-rok-kontrastowe:
+      key: pierwszy-rok-kontrastowe
+      nazwa: Karty do zdjęć Pierwszy rok życia dziecka Kontrastowe
+      header: Karty do zdjęć - Pierwszy rok życia <br/>Konstrastowe 33 karty
+      infoParagraphA: Zestaw unikalnych i niepowtarzalnych kart do zdjęć, dzięki którym uda się zachować najpiękniejsze chwile w życiu każdego dziecka.
+      infoParagraphB: Karty zostały zaprojektowane tak, aby mogły służyć do robienia zdjęć a następnie jako karty kontrastowe.
+      infoParagraphC: Ilustracje w kontrastowych barwach pomagają rozwijać inteligencje wizualno-przestrzenną dziecka już od pierwszych miesięcy jego życia.
+      howItWorksParagraphA: Zapisz datę na karcie, daj kartę dziecku do potrzymania albo połóż obok niego, zrób zdjęcie, a tył karty uzupełnij o ważne informacje i zachowaj. Piękna i ciekawa pamiątka – gotowa!
+      howItWorksParagraphB:
+      url: /karty-do-zdjec-pierwszy-rok-zycia-dziecka-kontrastowe
+      img: karty-do-zdjec-pierwszy-rok-zycia-dziecka-kontrastowe
+      imgSrcPrefix: /img/karty-do-zdjec-pierwszy-rok-zycia-dziecka-kontrastowe
+      price: "35.00"
+      allegro: http://allegro.pl/kontrastowe-karty-do-zdjec-pierwszy-rok-zycia-i7128300955.html
+#    swiateczne-bozonarodzeniowe:
+#      key: swiateczne-bozonarodzeniowe
+#      nazwa: Karty do zdjęć Zestaw Świąteczny
+#      header: Karty do zdjęć - Zestaw Świąteczny
+#      infoParagraphA: Zestaw unikalnych i niepowtarzalnych kart do zdjęć, dzięki którym uda się zachować najpiękniejsze chwile wspólnych Świąt Bożego Narodzenia.
+#      infoParagraphB:
+#      infoParagraphC:
+#      howItWorksParagraphA: Zapisz datę na karcie, daj kartę dziecku do potrzymania albo połóż obok niego, zrób zdjęcie,a tył karty uzupełnij o ważne informacje i zachowaj. Piękna i ciekawa pamiątka – gotowa!
+#      howItWorksParagraphB:
+#      url: /karty-do-zdjec-swiateczne-bozonarodzeniowe
+#      img: karty-do-zdjec/swiateczne-bozonarodzeniowe
+#      imgSrcPrefix: /img/karty-do-zdjec/swiateczne-bozonarodzeniowe
+#      price: "15.00"
+#      allegro: http://allegro.pl/karty-do-zdjec-dla-dzieci-zestaw-swiateczny-i7070224716.html
+  plakaty:
+    jelenie:
+      key: jelenie
+      nazwa: Plakat dla dzieci - Jelenie
+      header: Plakat dla dzieci - Jelenie
+      infoParagraphA: Idealny pomysł na dekorację w pokoju dziecka. Zaprojektowany został tak, aby wywołać uśmiech i radość malucha.
+      infoParagraphB:
+      infoParagraphC:
+      howItWorksParagraphA:
+      howItWorksParagraphB:
+      url: /plakat-jelenie
+      imgSrcPrefix: /img/plakaty/plakat-jelenie
+      price: "19.00"
+      allegro: http://allegro.pl/plakat-edukacyjny-dla-dzieci-jelenie-i7063926924.html
+    kosmos-liczby:
+      key: kosmos-liczby
+      nazwa: Plakat edukacyjny Kosmos - Liczby
+      header: Plakat edukacyjny Kosmos - Liczby
+      infoParagraphA: Idealny pomysł na dekorację w pokoju dziecka. Zaprojektowany został tak, aby wywołać uśmiech i radość malucha.
+      infoParagraphB:
+      infoParagraphC:
+      howItWorksParagraphA: Plakaty edukacyjne rozwijają wyobraźnie i pobudzają kreatywność a także wprowadzają dzieci w świat alfabetu i cyfr.
+      howItWorksParagraphB: Dzięki stałej ekspozycji, dziecko poznaje litery liczby  w bardzo przyjemny sposób – za pośrednictwem ulubionych zwierząt, bajek i kolorów.
+      url: /plakat-kosmos-liczby
+      imgSrcPrefix: /img/plakaty/plakat-kosmos-liczby
+      price: "19.00"
+      allegro: http://allegro.pl/plakat-edukacyjny-dla-dzieci-kosmos-liczby-i7060211128.html
+    kosmos-alfabet:
+      key: kosmos-alfabet
+      nazwa: Plakat edukacyjny Kosmos - Alfabet
+      header: Plakat edukacyjny Kosmos - Alfabet
+      infoParagraphA: Idealny pomysł na dekorację w pokoju dziecka. Zaprojektowany został tak, aby wywołać uśmiech i radość malucha.
+      infoParagraphB:
+      infoParagraphC:
+      howItWorksParagraphA: Plakaty edukacyjne rozwijają wyobraźnie i pobudzają kreatywność a także wprowadzają dzieci w świat alfabetu i cyfr.
+      howItWorksParagraphB: Dzięki stałej ekspozycji, dziecko poznaje litery liczby  w bardzo przyjemny sposób – za pośrednictwem ulubionych zwierząt, bajek i kolorów.
+      url: /plakat-kosmos-alfabet
+      imgSrcPrefix: /img/plakaty/plakat-kosmos-alfabet
+      price: "19.00"
+      allegro: http://allegro.pl/plakat-edukacyjny-dla-dzieci-kosmos-alfabet-i7060205109.html
+    droga:
+      key: droga
+      nazwa: Plakat edukacyjny - Droga
+      header: Plakat edukacyjny - Droga
+      infoParagraphA: Idealny pomysł na dekorację w pokoju dziecka. Zaprojektowany został tak, aby wywołać uśmiech i radość malucha.
+      infoParagraphB:
+      infoParagraphC:
+      howItWorksParagraphA: Plakaty edukacyjne rozwijają wyobraźnie i pobudzają kreatywność a także wprowadzają dzieci w świat alfabetu i cyfr.
+      howItWorksParagraphB: Dzięki stałej ekspozycji, dziecko poznaje litery liczby  w bardzo przyjemny sposób – za pośrednictwem ulubionych zwierząt, bajek i kolorów.
+      url: /plakat-droga
+      imgSrcPrefix: /img/plakaty/plakat-droga
+      price: "19.00"
+      allegro: http://allegro.pl/plakat-edukacyjny-dla-dzieci-droga-i7063928913.html
+    zwierzeta-alfabet:
+      key: zwierzeta-alfabet
+      nazwa: Plakat edukacyjny Zwierzęta - Alfabet
+      header: Plakat edukacyjny Zwierzęta - Alfabet
+      infoParagraphA: Idealny pomysł na dekorację w pokoju dziecka. Zaprojektowany został tak, aby wywołać uśmiech i radość malucha.
+      infoParagraphB:
+      infoParagraphC:
+      howItWorksParagraphA: Plakaty edukacyjne rozwijają wyobraźnie i pobudzają kreatywność a także wprowadzają dzieci w świat alfabetu i cyfr.
+      howItWorksParagraphB: Dzięki stałej ekspozycji, dziecko poznaje litery liczby  w bardzo przyjemny sposób – za pośrednictwem ulubionych zwierząt, bajek i kolorów.
+      url: /plakat-zwierzeta-alfabet
+      imgSrcPrefix: /img/plakaty/plakat-zwierzeta-alfabet
+      price: "19.00"
+      allegro: http://allegro.pl/plakat-edukacyjny-zwierzatka-alfabet-i7097078082.html
