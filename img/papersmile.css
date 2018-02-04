@@ -22,6 +22,8 @@ body {
   font-family: PROXIMANOVA, BEBASNEUE, Arial;
 }
 
+a { color: #c3e7fa; }
+
 .header,
 .footer {
   padding-right: 15px;
