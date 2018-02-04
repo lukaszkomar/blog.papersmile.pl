@@ -7,8 +7,10 @@
 <div class="row">
   <div class="col-md-12">
     <a href="{{ post.url }}">
-      <img src="/img/p/{{ post.img }}" width="35" /> {{ post.title }}
+      <img src="/img/p/{{ post.img }}" width="35" />
     </a>
+    {{ post.title }}
+    <a href="{{ post.url }}">zobacz</a>
   </div>
 </div>
 {% endfor %}
