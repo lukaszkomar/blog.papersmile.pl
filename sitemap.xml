@@ -10,10 +10,19 @@
     </url>
     {% endif %}
     {% endfor %}
+
     {% for post in site.posts %}
     <url>
         <loc>http://{{ site.url }}{{ post.url | remove: 'index.html' | replace: '.html', '' }}</loc>
         <priority>{{ post.priority }}</priority>
     </url>
     {% endfor %}
+
+    {% for category in site.categories %}
+    <url>
+        <loc>http://{{ site.url }}/category/{{ category[0] | slugify: 'latin' }}</loc>
+        <priority>0.5</priority>
+    </url>
+    {% endfor %}
+</div>
 </urlset>
