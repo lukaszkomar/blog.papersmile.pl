@@ -5,13 +5,10 @@
 </div>
 {% for post in site.posts %}
 <div class="row">
-  <div class="col-md-4">
+  <div class="col-md-12">
     <a href="{{ post.url }}">
-      <img src="/img/p/{{ post.img }}" width="100%" />
+      <img src="/img/p/{{ post.img }}" width="35" /> {{ post.title }}
     </a>
-  </div>
-  <div class="col-md-8">
-    <a href="{{ post.url }}">{{ post.title }}</a>
   </div>
 </div>
 {% endfor %}
