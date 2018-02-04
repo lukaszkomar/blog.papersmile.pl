@@ -23,8 +23,8 @@
 {% for category in site.categories %}
 <div class="row">
   <div class="col-md-12">
-    <a href="{{ post.url }}">
-      x
+    <a href="/">
+      {{ category | capitalize }} ({{ site.tags[category].size }})
     </a>
   </div>
 </div>
