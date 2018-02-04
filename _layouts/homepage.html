@@ -1,0 +1,89 @@
+{% include header.html %}
+
+
+    <div id="carousel-papersmile" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <!--
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-papersmile" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-papersmile" data-slide-to="1"></li>
+          <li data-target="#carousel-papersmile" data-slide-to="2"></li>
+          <li data-target="#carousel-papersmile" data-slide-to="3"></li>
+        </ol>
+        -->
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+
+{% comment %}
+            {% for karta in site.produkty.karty %}
+            <div class="item {% if forloop.first %}active{% endif %}">
+                <a href="{{ karta[1].url}}"><img src="{{ karta[1].imgSrcPrefix }}-karuzela.jpg" width="100%"></a>
+            </div>
+            {% endfor %}
+{% endcomment %}
+
+            <div class="item active"><a href="/karty"                                     ><img src="/img/polecamy/1-karty.jpg"            width="100%"></a></div>
+            <div class="item"       ><a href="/plakaty"                                   ><img src="/img/polecamy/2-plakaty.jpg"          width="100%"></a></div>
+            <div class="item"       ><a href="/karty-do-zdjec-moje-9-miesiecy-ciaza"      ><img src="/img/polecamy/3-karty-9-miesiecy.jpg" width="100%"></a></div>
+            {% comment %}
+            <div class="item"       ><a href="/karty-do-zdjec-swiateczne-bozonarodzeniowe"><img src="/img/polecamy/4-karty-swiateczne.jpg" width="100%"></a></div>
+            {% endcomment %}
+            <div class="item"       ><a href="/plakat-zwierzeta-alfabet"                  ><img src="/img/polecamy/5-plakat-alfabet.jpg"   width="100%"></a></div>
+
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-papersmile" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Poprzednie</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-papersmile" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Następne</span>
+        </a>
+    </div>
+    <div class="text-right">
+        <img src="/img/thing.jpg" />
+    </div>
+
+    <div>
+      <div class="row mb30">
+        <h4>KARTY DO ZDJĘĆ:</h4>
+      </div>
+    </div>
+
+    <div>
+      <div class="row mb50">
+        {% for karta in site.produkty.karty %}
+        <div class="col-md-4 karty-box-column" id="homepage-karta-{{ forloop.index }}"  {% if forloop.index > 3 %}style="display: none;"{% endif %}>
+          <a href="{{ karta[1].url}}">
+            <img src="{{ karta[1].imgSrcPrefix }}-box.jpg" class="ani">
+          </a>
+          <div class="text-right"><img src="/img/thing.jpg" class="thing-under-ani" /></div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div>
+      <div class="row mb30">
+        <h4>PLAKATY:</h4>
+      </div>
+    </div>
+
+    <div>
+      <div class="row mb30">
+        {% for plakat in site.produkty.plakaty %}
+        <div class="col-md-4 karty-box-column" id="homepage-plakat-{{ forloop.index }}"  {% if forloop.index > 3 %}style="display: none;"{% endif %}>
+          <a href="{{ plakat[1].url}}">
+            <img src="{{ plakat[1].imgSrcPrefix }}-glowne.jpg" class="ani">
+          </a>
+          <div class="text-right"><img src="/img/thing.jpg" class="thing-under-ani" /></div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+
+
+{% include footer.html %}
