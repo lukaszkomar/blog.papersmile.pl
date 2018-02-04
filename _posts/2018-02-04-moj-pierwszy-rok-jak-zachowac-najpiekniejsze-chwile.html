@@ -51,12 +51,10 @@ dzięki którym uda  się zachować cudowne chwile. Pierwszy ząbek? Pierwsze kr
 </div>
 <div class="row">
     <div class="col-md-12">
+        {{ page.categories }}
+
         {% for category in page.categories %}
-        {% if site.pages[category[0] | slugify] %}
-        <a href="/category/{{ category[0] | slugify }}" class="label label-primary">{{ category[0] }}</a>
-        {% else %}
         <span class="label label-primary">{{ category[0] }}</span>
-        {% endif %}
         {% endfor %}
     </div>
 </div>
