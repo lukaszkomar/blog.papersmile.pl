@@ -18,5 +18,10 @@
     </url>
     {% endfor %}
 
+    {% for category in site.categories %}
+    <url>
+        <priority>0.5</priority>
+    </url>
+    {% endfor %}
 </div>
 </urlset>
