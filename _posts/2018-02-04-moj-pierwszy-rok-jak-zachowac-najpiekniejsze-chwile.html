@@ -44,6 +44,23 @@ dzięki którym uda  się zachować cudowne chwile. Pierwszy ząbek? Pierwsze kr
 <p>Zachęcamy do odwiedzenia naszej strony internetowej <a href="http://papersmile.pl">papersmile.pl</a> gdzie znajdziecie wszystkie zestawy naszych <a href="http://papersmile.pl/karty">kart</a>.</p>
 
 
+<div class="row">
+    <div class="col-md-12">
+        <h3>Tagi:</h3>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        {% for category in page.categories %}
+        {% if site.pages[category[0] | slugify] %}
+        <a href="/category/{{ category[0] | slugify }}" class="label label-primary">{{ category[0] }}</a>
+        {% else %}
+        <span class="label label-primary">{{ category[0] }}</span>
+        {% endif %}
+        {% endfor %}
+    </div>
+</div>
+
 <a href="http://papersmile.pl">
     <img src="/img/polub-nas.png" width="100%"/>
 </a>
