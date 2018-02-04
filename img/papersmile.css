@@ -1,0 +1,182 @@
+@font-face {
+  font-family: BEBASNEUE;
+  src: url("BEBASNEUE.OTF") format("opentype");
+}
+@font-face {
+  font-family: PROXIMANOVA;
+  src: url("PROXIMA-NOVA.OTF") format("opentype");
+}
+
+.mt0  { margin-top: 0; }
+.mt10 { margin-top: 10px; }
+.mt25 { margin-top: 25px; }
+.mt50 { margin-top: 50px; }
+.mb50 { margin-bottom: 50px; }
+.mb30 { margin-bottom: 30px; }
+.p0   { padding: 0; }
+
+h1 { font-size: 30px; }
+
+body {
+  font-family: PROXIMANOVA, BEBASNEUE, Arial;
+}
+
+.header,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Custom page header */
+.header {
+  /*padding-bottom: 20px;*/
+}
+
+.navbar-collapse {
+  padding-right: 0;
+}
+
+.navbar-default {
+  background-color: #fff;
+  border-color: #fff;
+  font-size: 20px;  /*24 przy czcionce beba*/
+  text-transform: uppercase;
+}
+.navbar-default .navbar-nav>li>a {
+  color: #000;
+  margin: 0 15px;
+  padding: 10px 0;
+}
+.navbar-default .navbar-nav>.active>a {
+  color: #000;
+  background-color: #fff;
+  border-bottom: 2px solid black;
+}
+
+a.social {
+  display: block;
+  margin-left: 10px !important;
+  margin-right: 0 !important;
+  height: 43px;
+  width: 43px;
+}
+a.facebook {
+  background: url("social.jpg");
+}
+a.instagram {
+  background: url("social.jpg");
+  background-position-x: 43px;
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+.logo img {
+  height: 50px;
+}
+
+/* karuzela*/
+
+.carousel .item {
+  background: #E5E1ED url("caro-bg.jpg");
+}
+.carousel .item img{
+  margin: auto !important;
+}
+
+.carousel-control {
+  width: 3%;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none !important;
+}
+
+/*  */
+
+img.ani {
+  width: 100%;
+  /* na mobile bez animacji */
+}
+
+.thing-under-ani {
+  margin-right: 0;
+}
+
+/********************/
+
+.footer {
+  padding: 20px 0;
+  color: #777;
+  font-size: 11px;
+  line-height: 14px;
+  width:100%;
+}
+
+.footer-center {
+  text-align:center;
+}
+
+.footer-2, .footer-2 a {
+  color: #888;
+  background: #444;
+}
+
+.footer-3 {
+  color: #666;
+  background: #222;
+}
+
+.footer-3 a {
+  color: #666;
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+
+  .container {
+    max-width: 992px;
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+
+  ul.nav {
+    margin-top: 10%;  /*14% przy czcionce beba  */
+  }
+  .logo img {
+	  height: 180px;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+
+  img.ani {
+    width: 95%;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+  }
+
+  img.ani:hover {
+    width: 100%;
+  }
+
+  .thing-under-ani {
+    margin-right: 5%;
+  }
+
+}
+
