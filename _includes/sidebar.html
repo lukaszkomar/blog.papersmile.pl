@@ -20,12 +20,10 @@
     <h3>Tagi:</h3>
   </div>
 </div>
-{% for category in site.categories %}
 <div class="row">
   <div class="col-md-12">
-    <a href="/category/{{ category[0] }}" class="label label-primary">
-      {{ category[0] }}
-    </a>
+  {% for category in site.categories %}
+      <a href="/category/{{ category[0] | slugify}}" class="label label-primary">{{ category[0] }}</a>
+  {% endfor %}
   </div>
 </div>
-{% endfor %}
