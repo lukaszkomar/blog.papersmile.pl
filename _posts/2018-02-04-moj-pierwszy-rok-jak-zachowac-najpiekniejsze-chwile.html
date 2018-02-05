@@ -6,7 +6,6 @@ categories: [mama,
 karty do zdjęć,
 karty dla dzieci,
 papersmile,
-papersmilepl,
 dziecko,
 noworodek,
 rodzic,
@@ -52,7 +51,7 @@ dzięki którym uda  się zachować cudowne chwile. Pierwszy ząbek? Pierwsze kr
 <div class="row">
     <div class="col-md-12">
     {% for category in page.categories %}
-        <span class="label label-papersmile">{{ category }}</span>
+        <a href="/tag/{{ category | slugify }}" class="label label-papersmile">{{ category }}</a>
     {% endfor %}
     </div>
 </div>
