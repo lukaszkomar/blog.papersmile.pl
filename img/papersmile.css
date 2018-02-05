@@ -22,7 +22,7 @@ body {
   font-family: PROXIMANOVA, BEBASNEUE, Arial;
 }
 
-.main-content a { color: #c3e7fa !important; }
+.main-content a { color: #c3e7fa; }
 
 .label-papersmile { background-color: #c3e7fa; color: #fff; }
 
