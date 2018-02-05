@@ -24,7 +24,7 @@
   <div class="col-md-12">
   {% for category in site.categories %}
     {% if site.pages[category[0] | slugify] %}
-      <a href="/category/{{ category[0] | slugify }}" class="label label-papersmile">{{ category[0] }}</a>
+      <a href="/tag/{{ category[0] | slugify }}" class="label label-papersmile">{{ category[0] }}</a>
     {% else %}
       <span class="label label-papersmile">{{ category[0] }}</span>
     {% endif %}
