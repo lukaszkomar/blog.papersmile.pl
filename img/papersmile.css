@@ -19,14 +19,16 @@
 
 h1 { font-size: 30px; }
 
+
 body {
   font-family: PROXIMANOVA, BEBASNEUE, Arial;
   font-size: 16px;
 }
 
-.main-content a { color: #6972a3; }
-
 .label-papersmile { background-color: #6972a3; color: #fff !important; }
+
+.main-content a { color: #6972a3; }
+.main-content h2 a { color: #000;}
 
 .header,
 .footer {
