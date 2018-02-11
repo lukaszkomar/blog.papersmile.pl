@@ -5,8 +5,8 @@
 
     <title>Blog PaperSmile</title>
     <link href="http://blog.papersmile.pl/atom.xml" rel="self" />
-    <link href="http://blog.papersmile.pl" />
-    <id>http://blog.papersmile.pl</id>
+    <link href="http://blog.papersmile.pl/" />
+    <id>http://blog.papersmile.pl/</id>
     <logo>http://papersmile.pl/img/logo.jpg</logo>
     <icon>http://papersmile.pl/favicon.ico</icon>
     <updated>{% for post in site.posts %}{% if forloop.first %}{{ post.rssdate }}{% endif %}{% endfor %}</updated>
