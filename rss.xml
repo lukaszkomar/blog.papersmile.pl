@@ -14,7 +14,9 @@
         <item>
             <title>{{ post.title }}</title>
             <link>http://{{ site.url }}{{ post.url | remove: 'index.html' | replace: '.html', '' }}</link>
-            <image>http://blog.papersmile.pl/img/p/{{ post.img }}</image>
+            <image>
+                <url>http://blog.papersmile.pl/img/p/{{ post.img }}</url>
+            </image>
             <pubDate>{{ post.rssdate }}</pubDate>
             <description><![CDATA[{{ post.teaser }}]]></description>
         </item>
