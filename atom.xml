@@ -6,7 +6,7 @@
     <title>Blog PaperSmile</title>
     <link href="http://blog.papersmile.pl/atom.xml" rel="self" />
     <link href="http://blog.papersmile.pl" />
-    <id>blog.papersmile.pl</id>
+    <id>http://blog.papersmile.pl</id>
     <logo>http://papersmile.pl/img/logo.jpg</logo>
     <icon>http://papersmile.pl/favicon.ico</icon>
     <updated>{% for post in site.posts %}{% if forloop.first %}{{ post.rssdate }}{% endif %}{% endfor %}</updated>
@@ -16,7 +16,6 @@
         <title>{{ post.title }}</title>
         <link href="http://{{ site.url }}{{ post.url | remove: 'index.html' | replace: '.html', '' }}" />
         <logo>http://blog.papersmile.pl/img/p/{{ post.img }}</logo>
-        <id>{{ post.rssid }}</id>
         <updated>{{ post.rssdate }}</updated>
         <summary>{{ post.teaser }}</summary>
         <author>
