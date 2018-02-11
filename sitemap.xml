@@ -20,7 +20,7 @@
 
     {% for category in site.categories %}
     <url>
-        <loc>http://{{ site.url }}/category/{{ category[0] | slugify }}</loc>
+        <loc>http://{{ site.url }}/tag/{{ category[0] | slugify }}</loc>
         <priority>0.5</priority>
     </url>
     {% endfor %}
