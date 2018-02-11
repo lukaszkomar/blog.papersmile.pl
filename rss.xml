@@ -9,15 +9,13 @@
         <image>
             <url>http://papersmile.pl/img/logo.jpg</url>
         </image>
-        <updated>{% for post in site.posts %}{% if forloop.first %}{{ post.rssdate }}{% endif %}{% endfor %}</updated>
+        <pubDate>{% for post in site.posts %}{% if forloop.first %}{{ post.rssdate }}{% endif %}{% endfor %}</pubDate>
 
         {% for post in site.posts %}
         <item>
             <title>{{ post.title }}</title>
             <link>http://{{ site.url }}{{ post.url | remove: 'index.html' | replace: '.html', '' }}</link>
-            <image>
-                <url>http://blog.papersmile.pl/img/p/{{ post.img }}</url>
-            </image>
+            <image>http://blog.papersmile.pl/img/p/{{ post.img }}</image>
             <pubDate>{{ post.rssdate }}</pubDate>
             <description><![CDATA[{{ post.teaser }}]]></description>
         </item>
