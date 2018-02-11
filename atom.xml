@@ -9,15 +9,15 @@
     <id>blogpapersmile</id>
     <logo>http://papersmile.pl/img/logo.jpg</logo>
     <icon>http://papersmile.pl/favicon.ico</icon>
-    <updated>{% for post in site.posts %}{% if forloop.first %}{{ post.date }}{% endif %}{% endfor %}</updated>
+    <updated>{% for post in site.posts %}{% if forloop.first %}{{ post.rfcdate }}{% endif %}{% endfor %}</updated>
 
     {% for post in site.posts %}
     <entry>
         <title>{{ post.title }}</title>
         <link href="http://{{ site.url }}{{ post.url | remove: 'index.html' | replace: '.html', '' }}" />
         <logo>http://blog.papersmile.pl/img/p/{{ post.img }}</logo>
-        <id>urn:uuid:{{ post.id }}</id>
-        <updated>{{ post.date }}</updated>
+        <id>{{ post.id }}</id>
+        <updated>{{ post.rfcdate }}</updated>
         <summary>{{ post.teaser }}</summary>
         <author>
             <name>PaperSmile</name>
