@@ -6,8 +6,9 @@
 
         <title>Blog PaperSmile</title>
         <link>href="http://blog.papersmile.pl/</link>
-        <logo>http://papersmile.pl/img/logo.jpg</logo>
-        <icon>http://papersmile.pl/favicon.ico</icon>
+        <image>
+            <url>http://papersmile.pl/img/logo.jpg</url>
+        </image>
         <updated>{% for post in site.posts %}{% if forloop.first %}{{ post.rssdate }}{% endif %}{% endfor %}</updated>
 
         {% for post in site.posts %}
