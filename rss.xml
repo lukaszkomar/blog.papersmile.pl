@@ -1,0 +1,24 @@
+---
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+
+        <title>Blog PaperSmile</title>
+        <link>href="http://blog.papersmile.pl/</link>
+        <logo>http://papersmile.pl/img/logo.jpg</logo>
+        <icon>http://papersmile.pl/favicon.ico</icon>
+        <updated>{% for post in site.posts %}{% if forloop.first %}{{ post.rssdate }}{% endif %}{% endfor %}</updated>
+
+        {% for post in site.posts %}
+        <item>
+            <title>{{ post.title }}</title>
+            <link>http://{{ site.url }}{{ post.url | remove: 'index.html' | replace: '.html', '' }}</link>
+            <image>http://blog.papersmile.pl/img/p/{{ post.img }}</image>
+            <pubDate>{{ post.rssdate }}</pubDate>
+            <description><![CDATA[{{ post.teaser }}]]></description>
+        </item>
+        {% endfor %}
+
+    </channel>
+</rss>
