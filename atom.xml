@@ -15,7 +15,7 @@
     <entry>
         <title>{{ post.title }}</title>
         <link href="http://{{ site.url }}{{ post.url | remove: 'index.html' | replace: '.html', '' }}" />
-        <logo>http://papersmile.pl/img/p/{{ post.img }}</logo>
+        <logo>http://blog.papersmile.pl/img/p/{{ post.img }}</logo>
         <id>urn:uuid:{{ post.id }}</id>
         <updated>{{ post.date }}</updated>
         <summary>{{ post.teaser }}</summary>
