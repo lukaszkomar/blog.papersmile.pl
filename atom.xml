@@ -16,7 +16,7 @@
         <title>{{ post.title }}</title>
         <link href="http://{{ site.url }}{{ post.url | remove: 'index.html' | replace: '.html', '' }}" />
         <id>http://{{ site.url }}{{ post.url | remove: 'index.html' | replace: '.html', '' }}</id>
-        <logo>http://blog.papersmile.pl/img/p/{{ post.img }}</logo>
+        <webfeeds:cover image="http://blog.papersmile.pl/img/p/{{ post.img }}" />
         <updated>{{ post.rssdate }}</updated>
         <summary>{{ post.teaser }}</summary>
         <author>
