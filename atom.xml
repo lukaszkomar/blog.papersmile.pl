@@ -9,7 +9,7 @@
     <id>blogpapersmile</id>
     <logo>http://papersmile.pl/img/logo.jpg</logo>
     <icon>http://papersmile.pl/favicon.ico</icon>
-    <updated>{% for post in site.posts %}{% if forloop.last %}{{ post.date }}{% endif %}{% endfor %}</updated>
+    <updated>{% for post in site.posts %}{% if forloop.first %}{{ post.date }}{% endif %}{% endfor %}</updated>
 
     {% for post in site.posts %}
     <entry>
