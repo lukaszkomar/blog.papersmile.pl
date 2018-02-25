@@ -70,3 +70,17 @@ a następnie niebieski. Ale tylko pod warunkiem, że są one intensywne, a przed
 <p>Pierwsze zabawki Twojego malucha powinny przede wszystkim stymulować jego wzrok.
 Kontrastowe karty do zdjęć to idealne połączenie prezentu dla przyszłej mamy oraz elementu edukacji dla
 nowo narodzonego dziecka.</p>
+
+
+<div class="row">
+    <div class="col-md-12">
+        <h3>Tagi:</h3>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        {% for category in page.categories %}
+        <a href="/tag/{{ category | slugify }}" class="label label-papersmile">{{ category }}</a>
+        {% endfor %}
+    </div>
+</div>
