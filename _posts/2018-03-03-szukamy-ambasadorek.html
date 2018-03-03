@@ -1,0 +1,60 @@
+---
+layout: blog
+title: "Szukamy ambasadorek"
+date: 2018-03-03 11:11:11
+rssdate: "Sat, 03 Mar 2018 11:11:11 +0100"
+rssid: "201800303"
+categories: [mama,
+karty do zdjęć,
+karty dla dzieci,
+papersmile,
+dziecko,
+noworodek,
+rodzic,
+zdjęcie,
+fotografia,
+instrukcja,
+pamiątka,
+prezent,
+photocards,
+babycards,
+będe mamą,
+ciąża,
+jestem w ciąży,
+]
+img: szukamy-ambasadorek.jpg
+teaser: Jesteś w ciąży?? Twoje maleństwo właśnie pojawiło się na świecie?? Jeśli fotografia to Twoja
+pasja i chciałabyś podzielić się z nami swoim szczęściem
+priority: 0.9
+---
+<h1 class="mt0">{{ page.title }}</h1>
+
+<img src="/img/p/szukamy-ambasadorek.png" width="100%" class="p5p" />
+
+<p>Mamy dla Was wiadomość!!</p>
+
+<p>SZUKAMY AMBASADARKI PAPER SMILE !!!</p>
+
+<p>
+Jesteś w ciąży?? Twoje maleństwo właśnie pojawiło się na świecie?? Jeśli fotografia to Twoja
+pasja i chciałabyś podzielić się z nami swoim szczęściem. Zapraszamy.
+</p>
+
+<p>
+Zgłoszenia należy kierować na nasz adres mailowy: papersmilepl@gmail.com
+</p>
+
+<p>Kto chętny?</p>
+
+<div class="row">
+    <div class="col-md-12">
+        <h3>Tagi:</h3>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        {% for category in page.categories %}
+        <a href="/tag/{{ category | slugify }}" class="label label-papersmile">{{ category }}</a>
+        {% endfor %}
+    </div>
+</div>
